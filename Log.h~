@@ -16,7 +16,6 @@ public:
 		va_list		ap;
 		CHAR		Log[LOG_MAX_LENGTH]	= {0,};
 
-		
 		va_start(ap, data);
 		vsprintf(Log, data, ap);
 		va_end(ap);
